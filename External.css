@@ -1,0 +1,35 @@
+	body{
+		background-image: url(https://cdn.shutterstock.com/shutterstock/videos/23047210/thumb/1.jpg);
+		background-size: cover; 
+	}
+	p{
+		color: white;
+		text-align: justify;
+		font-size: 50px;
+		text-shadow: 3px 3px 15px rgb(19,228,247);
+		font-family: "Federo";
+		}
+	#titlebar{
+		text-align: center;
+		font-size: 60px;
+		text-shadow: 1px 1px 5px rgb(20,50,40);
+		background: rgba(0,0,0, .5);
+		width: 100%;
+		position: fixed; top: -0px;
+		/*background-image: linear-gradient(to right, rgb(3,37,40) 25%,rgb(16,200,220) 150%);*/
+		/*background-blend-mode: color-dodge;*/
+	}
+	.ButtonFX{
+		color:rgb(19,228,247);
+		font-family: "Finger Paint";
+		padding-right: 60px;
+	}
+	.ButtonFX:hover {
+		text-shadow: 4px 3px 10px white;
+	}
+	.ContactButtonFX{
+		filter: grayscale(90%);
+	}
+	.ContactButtonFX:hover{
+		filter: grayscale(0%);
+	}
